@@ -5,6 +5,41 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
 }
+/* top header */
+nav{
+       background-color: #562EFF;
+}
+.icon  img{
+    width: 40.42px;
+    height: 51px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    
+}
+.icon a{
+    text-decoration: none;
+    margin-left: 14px;
+    color: #fff;
+}
+.top-nav{
+    display: flex;
+    justify-content: space-around;
+}
+.profile a {
+    text-decoration: none;
+    margin-right: 18px;
+    color: #fff;
+
+}
+.profile img{
+    width: 51px;
+    height: 51px;
+}
+.frofile{
+    font-size: 16px;
+}
 main{
     display: flex;
     flex-direction: column;
