@@ -4,6 +4,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
+    margin: 0;
 }
 /* top header */
 nav{
@@ -26,6 +27,8 @@ nav{
 .top-nav{
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    padding: 5px 5px;
 }
 .profile a {
     text-decoration: none;
@@ -37,8 +40,10 @@ nav{
     width: 51px;
     height: 51px;
 }
-.frofile{
+.profile{
+    display: flex;
     font-size: 16px;
+    align-items: center;
 }
 main{
     display: flex;
